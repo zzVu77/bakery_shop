@@ -1,0 +1,13 @@
+body {
+  height: 10000px;
+}
+html,
+body {
+  overflow: -moz-scrollbars-none; /* Cho trình duyệt Firefox */
+  -ms-overflow-style: none; /* Cho IE và Edge */
+  scrollbar-width: none; /* Cho Firefox */
+}
+
+body::-webkit-scrollbar {
+  display: none; /* Ẩn thanh cuộn cho trình duyệt WebKit */
+}
