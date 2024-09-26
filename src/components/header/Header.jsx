@@ -22,8 +22,8 @@ const Header = () => {
     <header>
       <nav className={`navigation ${showHeader === true ? "show" : ""}`}>
         <img
-          src="src\images\finalfinalLogo.png"
-          className="logo w-[87px] h-[97px]"
+          src="src\images\logo_project.png"
+          className="logo w-[107px] h-[107px] mt-4 object-cover"
           alt="Logo"
         />
         <a href="#" className="menu">
@@ -42,7 +42,7 @@ const Header = () => {
 
       <div>
         <img
-          src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?q=80&w=1926&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          src="src\images\final_background_header.jpg"
           alt=""
           className="background "
         />
