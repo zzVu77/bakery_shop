@@ -20,36 +20,67 @@ const Header = () => {
   }, []);
   return (
     <header>
-      <nav className={`navigation ${showHeader === true ? "show" : ""}`}>
-        <img
-          src="src\images\logo_project.png"
-          className="logo w-[107px] h-[107px] mt-4 object-cover"
-          alt="Logo"
-        />
-        <a href="#" className="menu">
-          Trang chủ
-        </a>
-        <a href="#" className="menu">
-          Thực đơn
-        </a>
-        <a href="#" className="menu">
-          Liên hệ
-        </a>
-        <a href="#" className="menu">
-          Tra cứu đơn hàng
-        </a>
+      <nav
+        className={`navigation flex items-center justify-between content-between w-full h-auto fixed left-0 top-0 bg-transparent transition-all duration-600 ease-linear mt-[-2%]  ${
+          showHeader === true ? "show bg-black opacity-80" : ""
+        }`}
+      >
+        <div className="flex justify-start items-center content-start">
+          <img
+            src="src\images\logo_project.png"
+            className="logo w-[107px] h-[107px] mt-4 object-cover"
+            alt="Logo"
+          />
+          <a
+            href="#"
+            className="menu text-[#f5f5f5] font-poppins text-[18px] ml-[30px]"
+          >
+            Trang chủ
+          </a>
+          <a
+            href="#"
+            className="menu text-[#f5f5f5] font-poppins text-[18px] ml-[30px]"
+          >
+            Thực đơn
+          </a>
+          <a
+            href="#"
+            className="menu text-[#f5f5f5] font-poppins text-[18px] ml-[30px]"
+          >
+            Liên hệ
+          </a>
+          <a
+            href="#"
+            className="menu text-[#f5f5f5] font- text-[18px] ml-[30px]"
+          >
+            Tra cứu đơn hàng
+          </a>
+        </div>
+        <div className="flex justify-start items-center mr-[3%] p-3">
+          <img
+            src="src\images\cart-heart-svgrepo-com-white.svg"
+            className="logo w-[50px] h-[35px] object-cover cursor-pointer"
+            alt="Logo"
+          />
+          <a
+            href="#"
+            className="menu text-[#f5f5f5] font- text-[18px] ml-[30px] pl-0"
+          >
+            Login
+          </a>
+        </div>
       </nav>
 
       <div>
         <img
           src="src\images\final_background_header.jpg"
           alt=""
-          className="background "
+          className="background z-[-1] inset-0 absolute w-full h-full object-cover object-[70%_100%] bg-no-repeat"
         />
       </div>
       <section>
-        <div className="wrapper mb-8">
-          <span className="quote ">
+        <div className="wrapper mb-8 absolute bottom-[10%] left-[2%]">
+          <span className="quote text-[#f5f5f5] text-[42px] ">
             Life is short <br />
             Eat dessert first
           </span>
