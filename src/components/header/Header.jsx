@@ -27,7 +27,7 @@ const Header = () => {
       >
         <div className="flex justify-start items-center content-start">
           <img
-            src="src\images\logo_project.png"
+            src="/images/logo_project.png"
             className="logo w-[107px] h-[107px] mt-4 object-cover"
             alt="Logo"
           />
@@ -58,7 +58,7 @@ const Header = () => {
         </div>
         <div className="flex justify-start items-center mr-[3%] p-3">
           <img
-            src="src\images\cart-heart-svgrepo-com-white.svg"
+            src="/images/cart-heart-svgrepo-com-white.svg"
             className="logo w-[50px] h-[35px] object-cover cursor-pointer"
             alt="Logo"
           />
@@ -73,7 +73,7 @@ const Header = () => {
 
       <div>
         <img
-          src="src\images\final_background_header.jpg"
+          src="/images/final_background_header.jpg"
           alt=""
           className="background z-[-1] inset-0 absolute w-full h-full object-cover object-[70%_100%] bg-no-repeat"
         />
