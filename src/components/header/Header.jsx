@@ -21,7 +21,7 @@ const Header = () => {
   return (
     <header>
       <nav
-        className={`navigation flex items-center justify-between content-between w-full h-auto fixed left-0 top-0 bg-transparent transition-all duration-600 ease-linear mt-[-2%]  ${
+        className={`navigation flex items-center justify-between content-between w-full h-auto fixed left-0 top-0 transition-all duration-600 ease-linear mt-[-2%] ${
           showHeader === true ? "show bg-black opacity-80" : ""
         }`}
       >
